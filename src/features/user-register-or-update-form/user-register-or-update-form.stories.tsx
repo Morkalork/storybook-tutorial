@@ -3,7 +3,6 @@ import { UserRegisterOrUpdateForm } from "./user-register-or-update-form";
 import { UserContext } from "../../context/user-context";
 import { http, HttpResponse } from "msw";
 import { validatePasswordMock } from "./validate-password";
-import e from "express";
 
 const MockUserContextProvider = ({
   children,
